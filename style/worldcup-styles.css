@@ -1,0 +1,121 @@
+body{
+    font-family: Tahoma, sans-serif;
+    background-color: #00923E;
+}
+#container{
+    overflow: hidden;
+    margin: auto;
+    width: 950px;
+    border-radius: 20px;
+    border: 2px solid black;
+    padding: 0;
+}
+
+table{
+    border-radius: 25px;
+}
+td{
+    width: 170px;
+    height: 30px;
+}
+th{
+    background-color: #F8C711;
+    color: black;
+    font-weight: bold;
+    height: 40px;
+}
+
+tr:nth-child(2n){
+    background-color: #C8C8C8;
+}
+tr:nth-child(2n+1){
+    background-color: #FFFFFF;
+}
+
+.group{
+    text-align: center;
+}
+.result{
+    text-align: center;
+}
+.team1{
+    text-align: right;
+    margin: 5px;
+}
+.team2{
+    text-align: left;
+    margin: 5px;
+}
+#br {
+    float: right;
+}
+#es {
+    float: right;
+}
+#it {
+    float: right;
+}
+#ar {
+    float: right;
+}
+#de {
+    float: right;
+}
+#br:after {
+    content: url('brasil.png');
+    padding-left: 5px;
+    float: right;
+}
+#mx:before {
+    content: url('mexico.png');
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#es:after {
+    content: url('spain.png');
+    padding-left: 5px;
+    float: right;
+}
+#nl:before {
+    content: url('netherlands.png');
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#it:after {
+    content: url('italy.png');
+    padding-left: 5px;
+    float: right;
+}
+#gb:before {
+    content: url('england.png');
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#ar:after {
+    content: url('argentina.png');
+    padding-left: 5px;
+    float: right;
+}
+#bih:before {
+    content: url('bosna.png');
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#de:after {
+    content: url('germany.png');
+    padding-left: 5px;
+    float: right;
+}
+#pt:before {
+    content: url('portugal.png');
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+select:disabled {
+    background-color: #dcdcdc;
+    color: red;
+}
+select:enabled {
+    color: green;
+}
