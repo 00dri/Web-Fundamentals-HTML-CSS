@@ -62,52 +62,52 @@ tr:nth-child(2n+1){
     float: right;
 }
 #br:after {
-    content: url('brasil.png');
+    content: url('../images/brasil.png');
     padding-left: 5px;
     float: right;
 }
 #mx:before {
-    content: url('mexico.png');
+    content: url('../images/mexico.png');
     padding-left: 5px;
     padding-right: 5px;
 }
 #es:after {
-    content: url('spain.png');
+    content: url('../images/spain.png');
     padding-left: 5px;
     float: right;
 }
 #nl:before {
-    content: url('netherlands.png');
+    content: url('../images/netherlands.png');
     padding-left: 5px;
     padding-right: 5px;
 }
 #it:after {
-    content: url('italy.png');
+    content: url('../images/italy.png');
     padding-left: 5px;
     float: right;
 }
 #gb:before {
-    content: url('england.png');
+    content: url('../images/england.png');
     padding-left: 5px;
     padding-right: 5px;
 }
 #ar:after {
-    content: url('argentina.png');
+    content: url('../images/argentina.png');
     padding-left: 5px;
     float: right;
 }
 #bih:before {
-    content: url('bosna.png');
+    content: url('../images/bosna.png');
     padding-left: 5px;
     padding-right: 5px;
 }
 #de:after {
-    content: url('germany.png');
+    content: url('../images/germany.png');
     padding-left: 5px;
     float: right;
 }
 #pt:before {
-    content: url('portugal.png');
+    content: url('../images/portugal.png');
     padding-left: 5px;
     padding-right: 5px;
 
