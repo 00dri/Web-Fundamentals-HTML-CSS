@@ -1,9 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title></title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="styles/website-header.css">
+    <title>Website header</title>
 </head>
 <body>
+<table>
+    <tr>
+        <td rowspan="2">
+            <a href="https://softini.bg">
+                <img src="images/logo-long.png" alt="SoftUni" title="SoftUni">
+            </a>
+        </td>
+        <td colspan="2"></td>
+        <td id="notifications">
+            <a href="https://softuni.bg/notifications">
+                <span>0</span>
+                <img src="images/bell.png" alt="bell" title="bell">
+            </a>
+        </td>
+        <td>
+            <a id="user" href="https://softuni.bg/users/profile/show">
+                <span>user&blacktriangledown;</span>
+            </a>
+        </td>
+        <td colspan="2">
+            <div id="search">
+                <input type="text" name="search" placeholder="Search..." >
+                <input type="image" src="images/search.png" alt="?" width="25" height="25" >
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td><a class="menu" href="https://softuni.bg/news">News</a></td>
+        <td><a class="menu" href="https://softuni.bg/about">About the university&blacktriangledown;</a></td>
+        <td><a class="menu" href="https://softuni.bg/trainings/courses/list">Training courses&blacktriangledown;</a></td>
+        <td><a class="menu" href="https://softuni.bg/companies">For Companies</a></td>
+        <td><a class="menu" href="https://softuni.bg/forum">Forum</a></td>
+        <td><a class="menu" href="https://softuni.bg/contacts">Contacts</a></td>
+    </tr>
+</table>
 
 </body>
 </html>

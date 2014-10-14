@@ -1,0 +1,32 @@
+body{
+    font-family: Tahoma, sans-serif;
+    text-transform: uppercase;
+    color: white;
+    font-size: 14px;
+}
+table {
+    background-color: #234465;
+    width: 1100px;
+    height: 60px;
+}
+td {
+    text-align: center;
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding: 0 5px;
+}
+table tr:first-child td:nth-child(3){
+    float: right;
+    vertical-align: top;
+}
+table tr:first-child td:nth-child(4){
+    vertical-align: top;
+    text-align: left;
+}
+input[type='image']{
+    float: right;
+    height: 22px;
+}
+
