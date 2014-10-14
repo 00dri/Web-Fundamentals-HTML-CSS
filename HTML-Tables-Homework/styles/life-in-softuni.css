@@ -1,0 +1,59 @@
+
+table,th,td{
+    border: 1px solid black;
+    font-family: Tahoma, sans-serif;
+    font-size: 16px;
+}
+#outer-table{
+    width: 450px;
+    height: 500px;
+    margin: 0 auto;
+}
+th{
+    font-size: 3em;
+    text-align: center;
+}
+th, td{
+    width: 125px;
+    height: 90px;
+}
+#inner-table {
+    margin: 5px;
+}
+.inner-td{
+    height: 45px;
+    text-align: center;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+#outer-table> tbody> tr:first-child> td:first-child{
+    text-align: left;
+    vertical-align: top;
+}
+#outer-table> tbody> tr:first-child> td:last-child{
+    text-align: right;
+    vertical-align: top;
+}
+#outer-table> tbody> tr:nth-child(2)> td:first-child{
+    text-align: center;
+    vertical-align: top;
+}
+
+#outer-table> tbody> tr:nth-child(2)> td:nth-child(3){
+    text-align: center;
+    vertical-align: bottom;
+}
+
+#outer-table> tbody> tr:nth-child(3)> td:nth-child(1){
+    text-align: right;
+    vertical-align: bottom;
+}
+#outer-table> tbody> tr:nth-child(3)> td:nth-child(2){
+    text-align: left;
+    vertical-align: bottom;
+}
+#outer-table> tbody> tr:nth-child(4)> td:nth-child(1){
+    text-align: right;
+    font-size: 1.6em;
+}

@@ -1,0 +1,49 @@
+
+table,th,td{
+    border: 1px solid black;
+    font-family: Tahoma, sans-serif;
+    font-size: 16px;
+
+}
+#outer-table{
+    width: 450px;
+    height: 500px;
+}
+th{
+    font-size: 2em;
+    text-align: center;
+}
+th, td{
+    width: 125px;
+    height: 90px;
+
+}
+.inner-td {
+    height: 45px;
+}
+th button {
+    font-size: 2em;
+    font-weight: bold;
+}
+button {
+    width: 95%;
+    height: 95%;
+    font-size: 1.3em;
+    color: #0000ff;
+    margin: 2px;
+    padding: 0;
+
+}
+table tbody tr:nth-child(4) td:first-child button {
+    font-size: 2em;
+    font-weight: bold;
+    vertical-align: middle;
+    text-align: right;
+}
+#inner-table td {
+    font-size: 0.7em;
+    border: none;
+    vertical-align: middle;
+    text-align: center;
+}
+

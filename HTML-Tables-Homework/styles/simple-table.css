@@ -1,0 +1,18 @@
+table{
+    width: 385px;
+    border: 1px solid lightgrey;
+    font-family: Tahoma, sans-serif;
+}
+th h1{
+    margin-top: 0;
+    text-align: left;
+    font-weight: bold;
+}
+h4{
+    margin-left: 4px;
+    margin-bottom: 0;
+}
+p{
+    margin-left: 4px;
+    margin-top: 0 ;
+}

@@ -1,0 +1,16 @@
+body{
+    font-family: Tahoma, sans-serif;
+    font-size: 16px;
+}
+table, th, td{
+    border: 1px solid black;
+}
+th, td{
+    padding: 3px;
+}
+h1{
+    font-size: 1.6em;
+}
+tfoot{
+    text-align: right;
+}
